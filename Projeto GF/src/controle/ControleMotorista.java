@@ -35,6 +35,7 @@ public class ControleMotorista {
             JOptionPane.showMessageDialog(null, "Erro ao inserir dados:\n" + ex.getMessage());
         }
         
+        
         conex.desconecta();
     }
 }
