@@ -34,9 +34,7 @@ public class ControleMotorista {
             //Logger.getLogger(ControleMotorista.class.getName()).log(Level.SEVERE, null, ex);
             JOptionPane.showMessageDialog(null, "Erro ao inserir dados:\n" + ex.getMessage());
         }
-        
-        
-        
+
         conex.desconecta();
     }
 }
